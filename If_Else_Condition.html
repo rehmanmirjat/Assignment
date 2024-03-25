@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>If Else Condition</title>
+    
+</head>
+<body>
+
+    <h1>Use of If…else Condition</h1>
+    <p>Use If...else statement of JavaScript to write a code to 
+        Display “Good Morning” or “Good Afternoon” according to 
+        current Time</p>
+
+        <h3>Output :</h3>
+
+    <script>
+        var date = new Date().getHours();
+        
+        if(date >= 5 && date <12){
+            document.write("<h1>Good Morning...</h1>");
+        }
+
+        else if (date >= 12 && date <= 18){
+            document.write("<h1>Good Afternoon...</h1>");
+        }
+
+        else{
+            document.write("<h1>Good Night...</h1>");
+        }
+
+    </script>
+</body>
+</html>

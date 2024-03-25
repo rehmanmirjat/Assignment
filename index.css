@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#home{
+    overflow: auto;   
+}
+
+#div1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#img1{
+    float: left;
+}
+
+#div2{
+    float: left;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+}
+body{
+    background-image: url('pexels-valdemaras-d-1647962.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#div3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.banner{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0%, 100% 90%, 63% 100%, 30% 90%, 0% 100%, 0% 0%);
+}
+
+.mymt{
+    margin-top: 200px;
+}
+
+.card img{
+    float: left;
+    margin-right: 20px;
+}

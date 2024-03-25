@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript Calculator</title>
+
+    <style>
+        button{
+            margin-top: 150px;
+            margin-left: 550px;
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h1>JavaScript Calculator</h1>
+    <p>Make a JavaScript calculator that should answer addition, 
+        multiplication and subtraction question using JavaScript 
+        variables.</p>
+    <h3>Output :</h3>
+    <hr>
+
+    <button type="button" onclick="main()">Start</button>
+    
+    <script>
+        function main(){
+            var num1 = Number.parseInt(prompt("Enter 1st Value"));
+        var num2 = Number.parseInt(prompt("Enter 2nd Value"));
+
+        var operator = prompt("Enter Operator");
+
+        if(operator === "+"){
+            alert(num1 + num2);
+        }
+
+        else if(operator === "-"){
+            alert(num1 - num2);
+        }
+
+        else if(operator === "*"){
+            alert(num1 * num2);
+        }
+
+        else if(operator === "/"){
+            alert(num1 / num2);
+        }
+
+        else if(operator === "%"){
+            alert(num1 % num2);
+        }
+
+        else{
+            alert("Something went wrong....");
+        }
+
+
+        alert("Thank you");
+
+
+        }
+    </script>
+
+</body>
+</html>

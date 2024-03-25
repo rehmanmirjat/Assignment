@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Report Form</title>
+    <style>
+        form{
+            margin-left: 400px;
+        }
+
+        table input{
+            font-size: large;
+        }
+
+        table h3{
+            text-align: center;
+        }
+
+        
+
+        #country{
+            width: 250px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Make a complete html 
+        form</h1>
+
+    <p>Make the following Report Form The Country 
+        Dropdown
+        List must contain 7 Countries in Ascending Order but 
+        when form is loaded, by default Pakistan is Selected.</p>
+
+    <h3>Output :</h3>
+
+    <form action="" method="post">
+
+        <table border="2">
+
+            <tr>
+                <th colspan="10" style="background-color: #e2e2e2;">
+                    <h1>Report Form</h1>
+                </th>
+            </tr>
+
+            <tr>
+                <th colspan="10" style="background-color: darkslategray; color: white;"><h2>Information Table</h2></th>
+            </tr>
+
+            <tr>
+                <td><h3>Name :</h3></td>
+                <td>
+                    <input type="text" ><br>
+                    <small>Enter Your Name</small>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Email :</h3></td>
+                <td>
+                    <input type="email"><br>
+                    <small>Enter Your Email</small>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Password :</h3></td>
+                <td><input type="password"><br>
+                <small>Enter Your Password</small>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Address :</h3></td>
+                <td><input type="text"><br>
+                <small>Complete Address</small>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Country :</h3></td>
+                <td>
+                    <select id="country">
+                        <option value="pakistan">Pakistan</option>
+                        <option value="india">India</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                    </select> <br>
+                    <small>Select your country</small>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Gender :</h3></td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Hobbies :</h3></td>
+                <td>
+                    <input type="checkbox">Reading
+                    <input type="checkbox">Swimming
+                    <input type="checkbox">Gardening <br>
+                    <input type="checkbox">Listening Music
+                    <input type="checkbox">Athletics
+                    <input type="checkbox">Fighting
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Your Website :</h3></td>
+                <td>
+                    <input type="text" placeholder="Http://"> <br>
+                    <small>Provide your website url exists <strong>(Not Necessary)</strong></small>
+                </td>
+            </tr>
+
+            <tr>
+                <td><h3>Other information about you:</h3></td>
+                <td>
+                    <textarea cols="35" rows="5"></textarea><br>
+                    <small>Write any other information that is not present here</small>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="SEND IN MY REPORT"></td>
+                <td><input type="button" value="ERASE REPORT FORM"></td>
+            </tr>
+
+        </table>
+
+    </form>
+    
+</body>
+</html>

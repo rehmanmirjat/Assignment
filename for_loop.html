@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>For Loop</title>
+</head>
+<body>
+
+    <h1>Use of for loop</h1>
+
+    <p>Use of loop to display a string of all the names of months 
+        using JS functions and variables</p>
+    <h3>Output :</h3>
+    <hr>
+
+    <script>
+       function print(month){
+            var add = "";
+
+            for (var i = 0; i<month.length; i++){
+                add += month[i]+"<br>";
+            }
+
+            return add;
+       }
+
+       const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+       document.write("<h1> Names of Months </h1><br>");
+
+       document.write(print(month));
+
+    </script>
+
+</body>
+</html>
